@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<listeners>
+		<listener class-name="com.extentreport.ExtentReporterNG" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="com.testcases.S_1234CreateAccountValidationTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
